@@ -20,4 +20,11 @@ const btnEnviarDenuncia = document.getElementById('enviar');
 btnEnviarDenuncia.addEventListener('click', event => {
   const enviado = document.getElementById('formulario');
   enviado.style.display = 'none';
+  gifConfirm.style.display = 'block';
+
+  splashReturn();
 });
+
+splashReturn = () => {
+  setTimeout(() => (location.href = '../index.html'), 2000);
+};
