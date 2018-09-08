@@ -28,7 +28,7 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
       const userName = document.getElementById('user-name');
       const userPhoto = document.getElementById('user-photo');
       userName.innerHTML = user.displayName;
-      userPhoto.innerHTML = `<img id="picture-profile" src="${user.photoURL}>`;
+      userPhoto.innerHTML = `<img src="${user.photoURL}" id="avatar">`;
     }
   }
   let id = user.uid;
