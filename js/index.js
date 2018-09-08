@@ -1,5 +1,10 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
+const btnDenunciar = document.getElementById('denunciar');
+
+btnDenunciar.addEventListener('click', event => {
+  location.href = '../denuncias.html';
+});
 
 btnGoogle.addEventListener('click', event => {
   let provider = new firebase.auth.GoogleAuthProvider();
@@ -9,12 +14,14 @@ btnGoogle.addEventListener('click', event => {
 
 btnFacebook.addEventListener('click', event => {
   let provider = new firebase.auth.FacebookAuthProvider();
-  firebase.auth().signInWithRedirect(provider)
-    .then((result)=> {
+  firebase
+    .auth()
+    .signInWithRedirect(provider)
+    .then(result => {
       let token = result.credencia.accessToken;
       let user = result.user;
     })
-    .catch((error) => {
+    .catch(error => {
       let errorCode = error.code;
       let errorMessage = error.message;
       let email = error.email;
