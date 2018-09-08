@@ -1,0 +1,15 @@
+<div class="pos-f-t">
+      <section class="collapse" id="navbarToggleExternalContent">
+        <article class="bg-dark p-4">
+          <img src="assets/images/perros-callejeros4.jpg" width="150">
+          <p>Nombre de usuario</p>            
+        </article>
+      </section>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" ty>Google</a>
+        <a href="#" ty>Dona Aqui</a>
+      </nav>        
+    </div>
