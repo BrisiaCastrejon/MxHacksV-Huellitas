@@ -17,6 +17,9 @@ btnLogout.addEventListener('click', event => {
   window.location.assign('../login.html');
 
 });
+const userName = document.getElementById('user-name');
+const userPhoto = document.getElementById('user-photo');
+const database = firebase.database();
 
 firebase.auth().onAuthStateChanged(firebaseUser => {
   let user = firebase.auth().currentUser;
@@ -30,6 +33,9 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
       userName.innerHTML = user.displayName;
       userPhoto.innerHTML = `<img src="${user.photoURL}" id="avatar">`;
     }
+  }
+  if (firebaseUser) {
+    userName.innerHTML = user.displayName;
   }
   let id = user.uid;
   userAuth = database.ref('users/' + id);
