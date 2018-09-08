@@ -17,6 +17,7 @@ btnEnviarDenuncia.addEventListener('click', event => {
 
   splashReturn();
 });
+
 splashReturn = () => {
   setTimeout(() => (location.href = '../index.html'), 2000);
 };
