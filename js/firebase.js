@@ -8,6 +8,11 @@ const config = {
   messagingSenderId: '465733336274'
 };
 firebase.initializeApp(config);
+const store = document.getElementById('store');
+const shelter = document.getElementById('shelter');
+const veterinarian = document.getElementById('veterinarian');
+const dogs = document.getElementById('dogs');
+const donate = document.getElementById('donate');
 
 const btnEnviarDenuncia = document.getElementById('enviar');
 
