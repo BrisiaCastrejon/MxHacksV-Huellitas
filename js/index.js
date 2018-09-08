@@ -1,10 +1,10 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
-const btnDenunciar = document.getElementById('denunciar');
+// const btnDenunciar = document.getElementById('denunciar');
 
-btnDenunciar.addEventListener('click', event => {
-  location.href = '../denuncias.html';
-});  
+// btnDenunciar.addEventListener('click', event => {
+//   location.href = '../denuncias.html';
+// });  
 btnGoogle.addEventListener('click', event => {
   let provider = new firebase.auth.GoogleAuthProvider();
   const promise = firebase.auth().signInWithRedirect(provider);
