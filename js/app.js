@@ -6,6 +6,10 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     user.updateProfile({
       displayName: user.displayName
     });
+    if (firebaseUser) {
+      const userName = document.getElementById('user-name');
+      userName.innerHTML = user.displayName;
+    }
   }
   let id = user.uid;
   userAuth = database.ref('users/' + id);
