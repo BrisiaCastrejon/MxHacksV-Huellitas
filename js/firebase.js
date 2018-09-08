@@ -1,5 +1,5 @@
 // Initialize Firebase
-var config = {
+const config = {
   apiKey: 'AIzaSyDQChB9200euyOm9UOfD2zUI7vYHlHJWDI',
   authDomain: 'mxhacks-393d3.firebaseapp.com',
   databaseURL: 'https://mxhacks-393d3.firebaseio.com',
