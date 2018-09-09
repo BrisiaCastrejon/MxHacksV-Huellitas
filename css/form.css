@@ -1,4 +1,4 @@
-.text-ubicar{
+.text-ubicar, #mision-title{
     text-align: center;   
 }
 
@@ -7,5 +7,13 @@
 }
 
 #help-sol{
-    color: #9500ff;
+    color:#585656;
+    text-shadow: 1px 1px #F29200;
+    font-weight: bold;
+}
+
+#mision{
+    margin-top: 2em;
+    margin-bottom: 2.3em;
+    text-align: justify;
 }
