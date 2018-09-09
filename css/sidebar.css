@@ -165,6 +165,10 @@ ul.CTAs a {
     margin: 5px auto;
 }
 
+#avatar {
+    width: 12em;
+    border-radius: 55em;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
