@@ -25,9 +25,8 @@ const dataManage = (inputId) => {
 btnEnviarDenuncia.addEventListener('click', event => {
   const enviado = document.getElementById('formulario');
   enviado.style.display = 'none';
-
   confirmation.innerHTML = `
-  <img src="assets/images/confirm.gif">
+  <img src="../assets/images/confirm.gif">
   <h3>¡Gracias!</h3>
   <h4>Pronto recibirá atención.</h4>
   <footer>Si quieres dar seguimiento a esta y otras misiones, síguenos en nuestras redes sociales y consulta la
