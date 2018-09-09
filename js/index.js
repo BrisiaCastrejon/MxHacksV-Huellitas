@@ -1,7 +1,7 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
 const denunciar = document.getElementById('denunciar');
-
+// esto es un comentario para subir cambios 
 denunciar.addEventListener('click', event => {
   window.location.assign('../views/denuncias1.html');
 });
