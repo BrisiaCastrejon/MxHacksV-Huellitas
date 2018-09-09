@@ -1,3 +1,5 @@
+const userName = document.getElementById('user-name');
+const userPhoto = document.getElementById('user-photo');
 const btnLogout = document.getElementById('btn-logout');
 let database = firebase.database();
 const boxBtn = document.getElementById('logout-box');
@@ -24,15 +26,13 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
       displayName: user.displayName
     });
     if (firebaseUser) {
-      const userName = document.getElementById('user-name');
-      const userPhoto = document.getElementById('user-photo');
-      userName.innerHTML = user.displayName;
+      document.getElementById('pata').style.display = 'none';
+      userName.innerHTML = user.displayName;      
       userPhoto.innerHTML = `<img src="${user.photoURL}" id="avatar">`;
-    }
+
+    } 
   }
-  if (firebaseUser) {
-    userName.innerHTML = user.displayName;
-  }
+  
   let id = user.uid;
   userAuth = database.ref('users/' + id);
   createUser(user.displayName, user.email, user.photoURL);
