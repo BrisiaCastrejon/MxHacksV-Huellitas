@@ -1,65 +1,70 @@
 body {
   background-color: #f3f3f3;
-  }
+}
 .botones {
-  background-color: #F29200;
+  background-color: #f29200;
   color: #f3f3f3 !important;
   font-family: Poppins;
-  }
-  h2 {
-    font-family: Pacifico;
-    font-size: 30spx;
-    text-align: center;   
-  }  
-  h3 {
-    font-family: Poppins;
-    font-size: 20px;
-  }
- #denunciar {
-   text-align: center;
-   margin-left: 50px;
- }
-#facebook-log, #google-log{
+}
+h2 {
+  font-family: Pacifico;
+  font-size: 30spx;
+  text-align: center;
+}
+h3 {
+  font-family: Poppins;
+  font-size: 20px;
+}
+#denunciar {
+  text-align: center;
+  margin-left: 50px;
+}
+#facebook-log,
+#google-log {
   margin-left: 20px;
 }
 
-
-.caja-titulo{
+.caja-titulo {
   margin: 20px auto 20px auto;
 }
-.txt{
+.txt {
   text-align: center;
   margin: 20px auto 20px auto;
 }
-.textoForm{
+.textoForm {
   text-align: center;
   font-family: Pacifico;
 }
-.barra{
+.barra {
   border-color: #00ff80;
 }
 
 .botoncito {
-  background-color: #51A0DC !important;
+  background-color: #51a0dc !important;
 }
 @media only screen and (min-width: 992px) {
-  #carrusel{
+  #carrusel {
     margin-top: 50px;
     width: 700px;
     float: left;
   }
-  #denunciar{
+  #denunciar {
     margin-left: 150px;
   }
-  #facebook-log, #google-log{
+  #facebook-log,
+  #google-log {
     margin-left: 70px;
-  } 
- .tarjetas{
-   display: none;
- }
+  }
+  .tarjetas {
+    display: none;
+  }
 }
 
-footer{
+#donate {
+  color: black;
+}
+
+footer {
   margin-top: 80px;
   font-size: 12px;
   text-align: center;

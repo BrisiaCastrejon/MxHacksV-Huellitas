@@ -9,6 +9,7 @@ const config = {
 };
 firebase.initializeApp(config);
 const store = document.getElementById('store');
+console.log(store);
 const shelter = document.getElementById('shelter');
 const veterinarian = document.getElementById('veterinarian');
 const dogs = document.getElementById('dogs');
@@ -17,13 +18,13 @@ let confirmation = document.getElementById('confirm');
 const btnEnviarDenuncia = document.getElementById('enviar');
 
 const data = {};
-const adress = document.getElementById('',)
-const dataManage = (inputId) => {
-};
+const adress = document.getElementById('');
+const dataManage = inputId => {};
 
 btnEnviarDenuncia.addEventListener('click', event => {
   const enviado = document.getElementById('formulario');
   enviado.style.display = 'none';
+
   confirmation.innerHTML = `
   <img src="../assets/images/confirm.gif">
   <h3>¡Gracias!</h3>
