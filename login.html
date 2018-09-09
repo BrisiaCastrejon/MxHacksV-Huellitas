@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section class="container">
+    <section class="container" id="carrusel">
         <article class="row justify-content-center">
                 <div id="carouselExampleIndicators" class="carousel slide col" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -48,19 +48,28 @@
     
     <article class="container">
         <section class="row justify-content-center">
-          <!--Botones de Login-->
-    <div class="col">
-    <input id="facebook-log" type="button" value="Facebook" class="btn botones">
-    </div>
-    <div class="col">
-    <input id="google-log" type="button" value="Google" class="btn botones">
-    </div>  
-        </section>
-    </article>
-    
-    <!--Botón de Denuncia-->
+           <div class="col caja-titulo">
+                <!--Botón de Denuncia-->
     <h2>¿Ubicaste a un perro en situación de calle?</h2>
     <button id="denunciar" class="btn botones">Ayudar a un callejero</button>
+           </div>
+        </section>
+    </article>
+
+    <div class="col txt">
+            <h3>Inicia sesion para conseguir nuestros productos y ayudar a estos peludos a tener una vida mejor </h3>
+    </div>
+    <article class="container">
+            <section class="row justify-content-center">
+              <!--Botones de Login-->
+        <div class="col	align-self-center">
+        <input id="facebook-log" type="button" value="Facebook" class="btn botones">
+        </div>
+        <div class="col	align-self-center face">
+        <input id="google-log" type="button" value="Google" class="btn botones">
+        </div>  
+        </section>
+        </article>
     <!--Firebase project link-->
     <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
     <!--Scripts JS-->
