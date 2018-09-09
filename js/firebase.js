@@ -18,18 +18,15 @@ let confirmation = document.getElementById('confirm');
 const btnEnviarDenuncia = document.getElementById('enviar');
 
 const data = {};
-const adress = document.getElementById('',)
-const dataManage = (inputId) => {
-if 
-
-};
+const adress = document.getElementById('');
+const dataManage = inputId => {};
 
 btnEnviarDenuncia.addEventListener('click', event => {
   const enviado = document.getElementById('formulario');
   enviado.style.display = 'none';
 
   confirmation.innerHTML = `
-  <img src="assets/images/confirm.gif">
+  <img src="../assets/images/confirm.gif">
   <h3>¡Gracias!</h3>
   <h4>Pronto recibirá atención.</h4>
   <footer>Si quieres dar seguimiento a esta y otras misiones, síguenos en nuestras redes sociales y consulta la
@@ -39,5 +36,5 @@ btnEnviarDenuncia.addEventListener('click', event => {
   splashReturn();
 });
 splashReturn = () => {
-  setTimeout(() => (location.href = '../store.html'), 3000);
+  setTimeout(() => (location.href = '../views/store.html'), 3000);
 };
