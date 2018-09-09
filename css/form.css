@@ -1,0 +1,23 @@
+.text-ubicar, #mision-title{
+    text-align: center;   
+}
+
+#formulario{
+    margin: 10%;
+}
+
+#help-sol{
+    color:#585656;
+    text-shadow: 1px 1px #F29200;
+    font-weight: bold;
+}
+
+#mision{
+    margin-top: 2em;
+    margin-bottom: 2.3em;
+    text-align: justify;
+}
+
+h3.text-ubicar {
+    margin-bottom: 2em;
+}

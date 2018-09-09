@@ -23,9 +23,7 @@ a, a:hover, a:focus {
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
+    box-shadow: 1px 1px 3px #51A0DC}
 .navbar-btn {
     box-shadow: none;
     outline: none !important;
@@ -50,7 +48,7 @@ a, a:hover, a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #181624;
+    background: #51A0DC;
     color: #fff;
     transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
     transform-origin: bottom left;
@@ -82,7 +80,7 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #181624;
+    color: #51A0DC;
     background: #F3BEE2;
 }
 
@@ -166,7 +164,7 @@ ul.CTAs a {
 }
 
 #avatar {
-    width: 12em;
+    width: 10em;
     border-radius: 55em;
 }
 
@@ -204,5 +202,5 @@ ul.CTAs a {
 
 }
 .fondo {
-  background-color: #181624 !important;
+  background-color: #51A0DC !important;
 }

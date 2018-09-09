@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Poppins" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/images/10-9-cm-amor-gato-perro-huellas-car-styling-decoraci-n-Decal-sticker-car-window-cover.jpg_640x640.ico"
         type="image/x-icon">
+    <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="../assets/Bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/sidebar.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -17,8 +19,12 @@
 <body>
     <div id="formulario">
         <div>
-            <h1>¿Ubicaste a un perro en situación de calle?</h1>
-            <h2>Solicitud de ayuda</h2>
+            <h2 id="help-sol" >Solicitud de ayuda</h2>
+            <div id="mision">
+                <p id="mision-title" >Misión</p>
+                <p id="text-mision" >Aquí habrá texto sobre la misión y visión de lo que haremos y bla bla lorem ipsum shalala</p>
+            </div>
+            <h3 class="text-ubicar">¿Ubicaste a algún perro en situación de calle?</h1>
             <form>
                 <div class="form-group">
                     <label for="inputAddress">Calle y Número</label>
@@ -112,11 +118,11 @@
             <form>
                 <div class="form-group">
                     <label for="exampleFormControlFile1">Subir una foto:</label>
-                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    <input type="file" class="form-control-file botones" id="exampleFormControlFile1">
                 </div>
             </form>
             <!--Botón de Enviar-->
-            <button id="enviar" class="btn btn-primary">Enviar</button>
+            <button id="enviar" class="btn btn-primary botones">Enviar</button>
         </form>
     </div>
     <!--Datos enviados-->
@@ -124,6 +130,10 @@
     <!--Si hay dueño y maltrato-->
     <div>
     </div>
+
+    <footer>
+        <p>© Copyright 2018 | | Todos los derechos reservados | |  https://github.com/BrisiaCastrejon/MxHacksV-Huellitas | | Brisia, Vania, Queletzu </p>
+      </footer>
     <!--Si hay -->
     <!--Firebase project link-->
     <script src=" https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>

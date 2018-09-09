@@ -10,20 +10,20 @@
   <link rel="stylesheet" href="../assets/Bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/sidebar.css">
   <link rel="stylesheet" href="../css/index.css">
-  <title>Pata-amiga</title>
+  <title>Pata-amiga</title>  
 </head>
 
 <body>
   <div class="wrapper">
     <nav id="sidebar">
       <div class="sidebar-header fondo">
-        <h3>Titulo pagina</h3>
+        <h2>Pata-amiga</h2> 
+        <img 
+        id="pata" src="../assets/images/10-9-cm-amor-gato-perro-huellas-car-styling-decoraci-n-Decal-sticker-car-window-cover.jpg_640x640.ico" width="100%"  alt="">
       </div>
       <ul class="list-unstyled components">
         <figure id="user-photo"></figure>
-        <p id="user-name">Usuario?</p>
-
-
+        <p id="user-name"></p>
         <li>
           <a href="#" id="store">Tienda</a>
         </li>
@@ -38,17 +38,17 @@
         </li>
       </ul>
       <div id="logout-box">
-        <input id="btn-logout" type="button" value="Salir">
+        <input id="btn-logout" type="button" value="Salir" class="btn botones">
       </div>
     </nav>
     <div id="content">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light barra">
         <div class="container-fluid">
           <button type="button" id="sidebarCollapse" class="navbar-btn">
-            <i class="fas fa-align-justify">_</i>
+            Menu
           </button>
-          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <i class="fas fa-align-justify">--</i>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto botoncito" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <i class="fas fa-align-justify">+</i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav ml-auto">
@@ -62,7 +62,7 @@
           </div>
         </div>
       </nav>
-      <article class="container">
+      <article class="container tarjetas">
         <section class="row">
           <div class="col">
             <div class="card">
@@ -98,9 +98,36 @@
           </div>
         </section>
       </article>
+
+      <div class="card-deck otrasTarjetas">
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/accesorios-perros-venta-bogota.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/2Q_3b39b88f-85eb-4267-9c1f-51f2cce22ca5_large.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../assets/images/images.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
       <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perspiciatis nihil repellendus laboriosam ab! A
-          sint ex reiciendis maiores sequi modi? Voluptas non neque minus adipisci. Delectus laboriosam esse voluptatem.</p>
+        <p>© Copyright 2018 || Todos los derechos reservados ||https://github.com/BrisiaCastrejon/MxHacksV-Huellitas || Brisia, Vania, Queletzu </p>
       </footer>
 
       <!--Firebase project link-->
