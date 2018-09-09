@@ -1,12 +1,16 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
 const btnDenunciar = document.getElementById('denunciar');
-const gifConfirm = document.getElementById('confirm');
 
-gifConfirm.style.display = 'none';
 btnDenunciar.addEventListener('click', event => {
   location.href = '../denuncias.html';
+  hideGif();
 });
+
+const hideGif = () => {
+  const gifConfirm = document.getElementById('confirm');
+  gifConfirm.style.display = 'none';
+};
 
 btnGoogle.addEventListener('click', event => {
   let provider = new firebase.auth.GoogleAuthProvider();
