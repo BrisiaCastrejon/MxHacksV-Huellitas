@@ -23,6 +23,6 @@ btnFacebook.addEventListener('click', event => {
 });
 firebase.auth().onAuthStateChanged(firebaseUser => {
   if (firebaseUser) {
-    window.location.assign('views/login.html');
+    window.location.assign('../views/store.html');
   };
 });
