@@ -1,6 +1,6 @@
 var cargarPagina = function(){
   setTimeout(function(){
     location.href= "views/login.html";
-  },5000);
+  },2000);
 }
 window.onload = cargarPagina;

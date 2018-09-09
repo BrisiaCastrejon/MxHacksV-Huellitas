@@ -1,21 +1,19 @@
 # Introducción a la problemática
 
 En la actualidad, México es el país con mayor población de perros en Latinoamérica, sin embargo, menos de la mitad tienen un hogar o un refugio, es decir, se encuentran en situación de calle.
-Aquí es donde nace [Nombre de la plataforma], cuya misión es la de canalizar los reportes ciudadanos sobre los perros que viven en este tipo de condiciones con la finalidad de disminuir la cantidad de perros callejeros así como los problemas que estos conllevan.
+Aquí es donde nace Pata amiga, cuya misión es la de canalizar los reportes ciudadanos sobre los perros que viven en este tipo de condiciones con la finalidad de disminuir la cantidad de perros callejeros así como los problemas que estos conllevan.
 
 ## Un problema de salud latente
 
 Al año se producen más de media tonelada de heces fecales a diario y cuando estas se secan o pulverizan viajan en el aire y pueden ocasionar enfermedades como conjuntivitis así como adherise fácilmente a la comida que se consume en puestos ambulantes y provocar enfermedades bacterianas.
 
-# Beneficios de []
+# Beneficios de Pata amiga
 
 * Ayuda con la recaudación de donaciones a albergues.
-* Unificar los sitios de los albergues  que se encuentran esparcidos
+* Unificar los sitios de los albergues  que se encuentran esparcidos en distintas redes sociales
 * Concienciar sobre la situación que se está viviendo
 
 ### User persona (Usuario):
-
-Se necesita atacar el problema de los perros callejeros en la ciudad de México ya que estos representan un gran problema 
 
 _Lo que piensa_:
 
@@ -66,3 +64,8 @@ Lo que hace
 Tiene un albergue que mitiga la problematica de los perros en situacion de calle 
 Lo que siente 
 Pena y decepcion al ver perros abandonados a su suerte.
+
+## Unificando la comunidad
+
+Con este proyecto se pretende unificar los distintos sitios que se encuentran esparcidos en internet, a pesar de estar en plataformas populares  resulta dificil encontrarlos y seguir a cada uno de ellos. Así mismo se pretende atacar el problema que resulta tener perros callejeros en la ciudad (u otra parte del mundo).
+
