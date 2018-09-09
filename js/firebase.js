@@ -20,7 +20,6 @@ const btnEnviarDenuncia = document.getElementById('enviar');
 const data = {};
 const adress = document.getElementById('',)
 const dataManage = (inputId) => {
-
 };
 
 btnEnviarDenuncia.addEventListener('click', event => {
@@ -35,10 +34,8 @@ btnEnviarDenuncia.addEventListener('click', event => {
       sección<a href="index.html"> Nuestros logros.</a> </footer>
       `;
   //gifConfirm.style.display = 'block';
-
   splashReturn();
 });
-
 splashReturn = () => {
-  setTimeout(() => (location.href = '../index.html'), 3000);
+  setTimeout(() => (location.href = '../views/store.html'), 3000);
 };

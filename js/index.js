@@ -1,6 +1,5 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
-
 btnGoogle.addEventListener('click', event => {
   let provider = new firebase.auth.GoogleAuthProvider();
   const promise = firebase.auth().signInWithRedirect(provider);
