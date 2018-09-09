@@ -4,11 +4,9 @@ body {
 }
 
 .botones {
-  background-color: #00A7C4;
-  border-color: #FFC61F !important;
+  background-color: #F29200;
   color: #f3f3f3 !important;
   font-family: Poppins;
-  
   }
   h2 {
     font-family: Pacifico;
@@ -39,4 +37,7 @@ body {
 .textoForm{
   text-align: center;
   font-family: Pacifico;
+}
+.barra{
+  border-color: #00ff80;
 }
