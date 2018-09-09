@@ -1,5 +1,11 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
+const denunciar = document.getElementById('denunciar');
+
+denunciar.addEventListener('click', event => {
+  window.location.assign('../views/denuncias1.html');
+});
+
 btnGoogle.addEventListener('click', event => {
   let provider = new firebase.auth.GoogleAuthProvider();
   const promise = firebase.auth().signInWithRedirect(provider);

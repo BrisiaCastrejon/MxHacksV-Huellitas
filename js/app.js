@@ -13,7 +13,7 @@ const createUser = (name, email, photo) => {
 btnLogout.addEventListener('click', event => {
   firebase.auth().signOut();
   btnLogout.style.display = 'none';
-  window.location.assign('/views/login.html');
+  window.location.assign('../views/login.html');
 
 });
 
