@@ -1,4 +1,3 @@
-
 const btnLogout = document.getElementById('btn-logout');
 let database = firebase.database();
 const boxBtn = document.getElementById('logout-box');
@@ -14,12 +13,9 @@ const createUser = (name, email, photo) => {
 btnLogout.addEventListener('click', event => {
   firebase.auth().signOut();
   btnLogout.style.display = 'none';
-  window.location.assign('../login.html');
+  window.location.assign('../views/login.html');
 
 });
-const userName = document.getElementById('user-name');
-const userPhoto = document.getElementById('user-photo');
-const database = firebase.database();
 
 firebase.auth().onAuthStateChanged(firebaseUser => {
   let user = firebase.auth().currentUser;

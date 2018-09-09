@@ -9,7 +9,6 @@ const config = {
 };
 firebase.initializeApp(config);
 const store = document.getElementById('store');
-console.log(store);
 const shelter = document.getElementById('shelter');
 const veterinarian = document.getElementById('veterinarian');
 const dogs = document.getElementById('dogs');
