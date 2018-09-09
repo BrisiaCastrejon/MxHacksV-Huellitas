@@ -1,10 +1,9 @@
 const btnFacebook = document.getElementById('facebook-log');
 const btnGoogle = document.getElementById('google-log');
-// const btnDenunciar = document.getElementById('denunciar');
+const btnDenunciar = document.getElementById('denunciar');
 
 btnDenunciar.addEventListener('click', event => {
   location.href = '../views/denuncias1.html';
-
   hideGif();
 });
 
@@ -55,6 +54,6 @@ btnFacebook.addEventListener('click', event => {
 
 firebase.auth().onAuthStateChanged(firebaseUser => {
   if (firebaseUser) {
-    window.location.assign('views/index.html');
+    window.location.assign('../views/store.html');
   }
 });
