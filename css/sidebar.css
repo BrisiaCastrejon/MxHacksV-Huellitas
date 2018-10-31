@@ -61,7 +61,8 @@ a, a:hover, a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    color: #f3f3f3;
+    background: #6eb8ef;
 }
 
 #sidebar ul.components {
@@ -72,11 +73,14 @@ a, a:hover, a:focus {
 #sidebar ul p {
     color: #fff;
     padding: 10px;
+    margin-left: 1.1em;
 }
-
+#sidebar ul li{
+    margin-left: 1.1em;
+}
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
     display: block;
 }
 #sidebar ul li a:hover {
@@ -167,6 +171,9 @@ ul.CTAs a {
     width: 10em;
     border-radius: 55em;
 }
+#user-photo{
+    margin-left: 2.7em;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -201,6 +208,8 @@ ul.CTAs a {
     }
 
 }
-.fondo {
-  background-color: #51A0DC !important;
+
+div#logout-box {
+    display: flex;
+    justify-content: center;
 }
