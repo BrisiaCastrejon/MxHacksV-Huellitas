@@ -27,7 +27,7 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     });
     if (firebaseUser) {
       document.getElementById('pata').style.display = 'none';
-      userName.innerHTML = user.displayName;      
+      userName.innerHTML = `<i class="fas fa-user"></i> ${user.displayName}`;      
       userPhoto.innerHTML = `<img src="${user.photoURL}" id="avatar">`;
 
     } 

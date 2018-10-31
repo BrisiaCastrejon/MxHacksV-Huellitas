@@ -167,6 +167,9 @@ ul.CTAs a {
     width: 10em;
     border-radius: 55em;
 }
+#user-photo{
+    margin-left: 2.7em;
+}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
